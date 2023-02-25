@@ -43,3 +43,6 @@ ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 数据库连接有点问题
 ![](images/2023-02-24-19-55-23.png)
 ![](images/2023-02-24-19-54-51.png)
+
+配置完成截图
+![](images/2023-02-25-18-29-34.png)
