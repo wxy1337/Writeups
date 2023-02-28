@@ -1,9 +1,8 @@
 # Soccer
 
 ip==10.10.11.194
-tun0==10.10.11.194
 
-```
+```php
 ┌──(kali㉿kali)-[~]
 └─$ sudo nmap -sS -T4 -p- 10.10.11.194 -oN soccer.txt
 [sudo] password for kali: 
@@ -18,7 +17,7 @@ PORT     STATE SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 986.33 seconds
 ```
-```
+```php
 ┌──(root㉿kali)-[/home/kali]
 └─# nmap -sC -sV 10.10.11.194 -oN soccer.txt
 Starting Nmap 7.92 ( https://nmap.org ) at 2023-02-23 08:47 EST
@@ -130,7 +129,7 @@ Nmap done: 1 IP address (1 host up) scanned in 63.92 seconds
 ```
 
 
-```
+```php
 ┌──(root㉿kali)-[/home/kali]
 └─# dirsearch -u 10.10.11.194
 
@@ -150,7 +149,7 @@ Target: http://10.10.11.194/
                                                                              
 Task Completed   
 ```
-```
+```php
 ┌──(root㉿kali)-[/home/kali]
 └─# gobuster dir -u http://soccer.htb/ -w /usr/share/wordlists/dirb/big.txt
 ===============================================================
