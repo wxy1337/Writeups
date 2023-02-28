@@ -3,7 +3,7 @@
 
 
 dvwa/config/config.inc.php
-```
+```php
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
 #   You'll need to generate your own keys at: https://www.google.com/recaptcha/admin
@@ -11,7 +11,7 @@ $_DVWA[ 'recaptcha_public_key' ]  = '6LdK7xITAAzzAAJQTfL7fu6I-0aPl8KHHieAT_yJg';
 $_DVWA[ 'recaptcha_private_key' ] = '6LdK7xITAzzAAL_uw9YXVUOPoIHPZLfw2K1n5NVQ';
 
 ```
-```
+```php
 # Database variables
 #   WARNING: The database specified under db_database WILL BE ENTIRELY DELETED during setup.
 #   Please use a database dedicated to DVWA.
@@ -26,7 +26,7 @@ $_DVWA[ 'db_password' ] = '123456';
 $_DVWA[ 'db_port'] = '3306';
 ```
 dvwa/php.ini
-```
+```php
 ; This file attempts to overwrite the original php.ini file. Doesnt always work.
 
 magic_quotes_gpc = Off
