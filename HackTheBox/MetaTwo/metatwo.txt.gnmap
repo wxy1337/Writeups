@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Mar  3 09:16:01 2023 as: nmap -sC -sV -oA metatwo.txt 10.10.11.186
+Host: 10.10.11.186 ()	Status: Up
+Host: 10.10.11.186 ()	Ports: 21/open/tcp//ftp?///, 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0/	Ignored State: closed (997)
+# Nmap done at Fri Mar  3 09:25:30 2023 -- 1 IP address (1 host up) scanned in 569.41 seconds

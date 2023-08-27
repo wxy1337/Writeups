@@ -1,0 +1,16 @@
+# Nmap 7.92 scan initiated Fri Feb 24 04:26:17 2023 as: nmap -sn -oN localtest.txt 192.168.231.0/24
+Nmap scan report for 192.168.231.1
+Host is up (0.00029s latency).
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Nmap scan report for 192.168.231.2
+Host is up (0.00016s latency).
+MAC Address: 00:50:56:FB:C9:4E (VMware)
+Nmap scan report for 192.168.231.130
+Host is up (0.00045s latency).
+MAC Address: 00:0C:29:29:57:00 (VMware)
+Nmap scan report for 192.168.231.254
+Host is up (0.00022s latency).
+MAC Address: 00:50:56:F7:0F:AE (VMware)
+Nmap scan report for 192.168.231.128
+Host is up.
+# Nmap done at Fri Feb 24 04:26:31 2023 -- 256 IP addresses (5 hosts up) scanned in 14.18 seconds
